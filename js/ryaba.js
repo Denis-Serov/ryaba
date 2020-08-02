@@ -11,16 +11,14 @@ const btnReplace = $('.j-btn-replace');
 const textNode = $('.result');
 
 
-
-
 btnCreate.click(function () {
-	const var1 = var1Node.val();
-	const var2 = var2Node.val();
-	const var3 = var3Node.val();
-	const var4 = var4Node.val();
-	const var5 = var5Node.val();
-	const var6 = var6Node.val();
-	const speach = speachNode.val();
+	const var1 = "Старик";
+	const var2 = "Старуха";
+	const var3 = "Курочка Ряба";
+	const var4 = "Яйчко";
+	const var5 = "Мышка";
+	const var6 = "Хвостом";
+	const speach = "Я снесу Вам новое яйцо";
 
 	const startObj = {
 		"text": [
