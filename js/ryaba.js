@@ -12,24 +12,24 @@ const textNode = $('.result');
 
 
 btnCreate.click(function () {
-	const var1 = "Старик";
-	const var2 = "Старуха";
-	const var3 = "Курочка Ряба";
-	const var4 = "Яйчко";
-	const var5 = "Мышка";
-	const var6 = "Хвостом";
-	const speach = "Я снесу Вам новое яйцо";
+	const var1Main = "Старик";
+	const var2Main = "Старуха";
+	const var3Main = "Курочка Ряба";
+	const var4Main = "Яйчко";
+	const var5Main = "Мышка";
+	const var6Main = "Хвостом";
+	const speachMain = "Я снесу Вам новое яйцо";
 
 	const startObj = {
 		"text": [
-			`Жили-были ${var1} да ${var2} </br>`,
-			`Была у них ${var3} </br>`,
-			`Снесла ${var3} ${var4}, не простое - золотое </br>`,
-			`- ${var1} бил, бил - не разбил </br>`,
-			`- ${var2} била, била - не разбила </br>`,
-			`${var5} бежала, ${var6} задела, ${var4} упало и разбилось. </br>`,
-			`${var1} плачет, ${var2} плачет, а ${var3} кудахчет: </br>`,
-			`${speach}`,
+			`Жили-были ${var1Main} да ${var2Main} </br>`,
+			`Была у них ${var3Main} </br>`,
+			`Снесла ${var3Main} ${var4Main}, не простое - золотое </br>`,
+			`- ${var1Main} бил, бил - не разбил </br>`,
+			`- ${var2Main} била, била - не разбила </br>`,
+			`${var5Main} бежала, ${var6Main} задела, ${var4Main} упало и разбилось. </br>`,
+			`${var1Main} плачет, ${var2Main} плачет, а ${var3Main} кудахчет: </br>`,
+			`${speachMain}`,
 		]
 	};
 	textNode.html(startObj.text);
